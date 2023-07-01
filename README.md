@@ -1,5 +1,13 @@
 # homebrew-flatten
 
-Tap: `brew tap chakrakan/flatten`  
-Install: `brew install flatten`  
-Usage: `flatten <folder_to_flatten>`  
+### Install
+```sh
+brew tap chakrakan/flatten
+brew install flatten
+```
+
+### Usage
+
+```sh
+flatten <folder_to_flatten>
+```
