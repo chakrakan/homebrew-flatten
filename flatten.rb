@@ -8,6 +8,6 @@ class Flatten < Formula
   sha256 X86_64_SHA
 
   def install
-    bin.install "target/release/flatten"
+    bin.install "flatten"
   end
 end
