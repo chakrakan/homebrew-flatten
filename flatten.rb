@@ -8,10 +8,10 @@ class Flatten < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/chakrakan/flatten/releases/download/#{VERSION}/flatten-v#{VERSION}-mac.tar.gz"
+      url "https://github.com/chakrakan/flatten/releases/download/v#{VERSION}/flatten-v#{VERSION}-mac.tar.gz"
       sha256 X86_64_SHA
     else
-      url "https://github.com/chakrakan/flatten/releases/download/#{VERSION}/flatten-v#{VERSION}-mac-aarch64-darwin.tar.gz"
+      url "https://github.com/chakrakan/flatten/releases/download/v#{VERSION}/flatten-v#{VERSION}-mac-aarch64-darwin.tar.gz"
       sha256 AARCH_64_SHA
     end
   end
